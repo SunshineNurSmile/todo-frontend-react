@@ -18,7 +18,7 @@ const App = () => {
         <Route path="/create" element={<CreateTodo />} />
         <Route path="/edit/:todoId" element={<EditTodo />} />
       </Route>
-      
+
       <Route path="*" element={<Error />} />
     </Routes>
   );
